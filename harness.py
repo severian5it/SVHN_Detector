@@ -13,7 +13,7 @@ def main():
 
     # I will also call to start training on your code from scratch. I might not always wait for training to complete
     # but I will start the training and make sure it is progressing.
-    average_f1_scores = svhn.traintest(False, True)
+    average_f1_scores = svhn.traintest()
     print(average_f1_scores)
 
 
